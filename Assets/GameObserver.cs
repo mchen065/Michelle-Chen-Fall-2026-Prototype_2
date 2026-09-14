@@ -20,7 +20,7 @@ public class GameObserver : MonoBehaviour
     public GameObject winImage;
     public GameObject loseImage;
 
-    public float timer = 60;
+    public float timer = 30;
     public TMP_Text timerText;
 
     private float damageTimer = 5;

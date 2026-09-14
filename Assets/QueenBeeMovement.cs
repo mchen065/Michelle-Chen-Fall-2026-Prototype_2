@@ -19,6 +19,6 @@ public class QueenBeeMovement : MonoBehaviour
     }
     void FixedUpdate()
     {
-        rb.velocity = movement * speed;
+        rb.linearVelocity = movement * speed;
     }
 }
